@@ -1,0 +1,62 @@
+
+.resume{
+   display: flex;
+    margin-top: 10vh;
+    overflow: auto;
+}
+.resume div{
+    display: flex;
+    flex-direction: column;
+     font-family: 'Quicksand', sans-serif;
+    width: 500px;
+   
+    background-color: rgb(0, 0, 0,.4);
+    /* border: 1px solid white; */
+    color: white;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+h1{
+    font-size: 40px;
+    display:inline-block;
+}
+h2{
+    font-size: 30px;
+   
+}
+p{
+    font-size: 30px;
+   
+}
+input{
+   
+    margin: 10px;
+}
+tr{
+font-size: 30px;
+}
+li{
+    font-size: 30px;
+}
+
+@media (max-width:900px){
+  .resume{
+    display: flex;
+    flex-direction: column;
+    
+  }  
+  .resume div{
+    width: 300px;
+  }
+  p{
+    font-size: 18px;
+  }
+  td{
+    font-size: 20px;
+  }
+  li{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,21 @@
+.projectvideo{
+    margin-top: 10vh;
+}
+.technology{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    font-family: 'Quicksand', sans-serif;
+}
+li{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+ @media (max-width:900px){
+    .technology{
+        display: grid;
+        grid-template-columns: 200px;
+      
+      
+    }
+ }

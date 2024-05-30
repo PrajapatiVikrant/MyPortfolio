@@ -1,0 +1,36 @@
+.projectcard{
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: rgb(0, 0, 0,.4);
+    color: white;
+}
+.aboutproject{
+    font-size: 16px;
+}
+.btnctn{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    background-color: red;
+    display: flex;
+ 
+    padding: 5px 14px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+.btn:hover{
+    background-color: rgb(236, 86, 86);
+}
+
+p{
+    padding: 20px;
+}
