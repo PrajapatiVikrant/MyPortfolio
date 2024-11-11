@@ -19,6 +19,11 @@ function Project() {
         <Card name="Todo list" source1="https://w3dev-assignment-frontend.vercel.app/" source2="https://w3dev-assignment-frontend.vercel.app/" discription="In this you can login/signUp and after that you can perform crud(create,read,update,delete) operation." />
       </div>
       <br />
+      <li>Next+Node.js Project</li>
+      <br />
+      <div className="technology">
+        <Card name="Watch store"  source2="https://ecomerce-blue-two.vercel.app/" discription="This is a full stack ecomerce website. Here user can do login/Signup, category selection, product selection, cart management, send order with payment gateway" />
+      </div>
       <li>React Project</li>
       <br />
       <div className="technology">
