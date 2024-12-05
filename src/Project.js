@@ -22,7 +22,7 @@ function Project() {
       <li>Next+Node.js Project</li>
       <br />
       <div className="technology">
-        <Card name="Watch store"  source2="https://ecomerce-blue-two.vercel.app/" discription="This is a full stack ecomerce website. Here user can do login/Signup, category selection, product selection, cart management, send order with payment gateway" />
+        <Card name="Watch store" source1="https://ecomerce-blue-two.vercel.app"  source2="https://ecomerce-blue-two.vercel.app/" discription="This is a full stack ecomerce website. Here user can do login/Signup, category selection, product selection, cart management, send order with payment gateway" />
       </div>
       <li>React Project</li>
       <br />
