@@ -1,0 +1,101 @@
+.homectn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+  
+   
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("https://media.istockphoto.com/id/1319189303/photo/shot-of-two-men-working-on-their-computers-in-a-modern-office.jpg?b=1&s=612x612&w=0&k=20&c=YPHeE9uC-b9HZ3t2HUN9qdk8MdHXWp3ueWw8-ni39Ew=");
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70vh;
+   
+    
+  }
+
+
+  .name{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+  }
+  .fa-download{
+   padding: 0;
+   padding-left: 8px;
+  font-size: 25px;
+   
+   
+   
+  }
+  
+  .typeeffect{
+    font-size: 30px;
+     color: burlywood;
+    margin-left: 10px;
+    text-decoration: double;
+  }
+  .myskill{
+   
+    
+    font-size: 25px;
+   
+    color: white;
+    text-align: center;
+  }
+  .iconbar{
+    display: flex;
+   
+    justify-content: center;
+    
+  
+  }
+  i{
+    font-size: 40px;
+    color: rgb(255, 255, 255,.4);
+    padding: 40px;
+    
+  }
+
+
+  @keyframes example {
+    from { 
+      position: relative;
+      top: -10px;
+      rotate: 180deg;
+    }
+    to { 
+      position: relative;
+      top: 0px;
+      rotate: 0deg;
+    }
+  }
+  i:hover{
+   
+   
+    animation-name: example;
+    animation-duration: 0.1s;
+  }
+  
+  
+  @media (max-width:900px){
+   
+    .name{
+      font-size: 30px;
+    }
+    .typeeffect{
+      font-size: 20px;
+    }
+    .myskill{
+      font-size: 18px;
+      text-align: center;
+      
+    }
+  }
