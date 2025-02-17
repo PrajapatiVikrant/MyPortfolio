@@ -16,7 +16,7 @@ function Card(props) {
       <a href={props.source2} className="btn">Live link</a>
       </div>
      
-      <h1 className="t"></h1>
+      
     </div>
      
      

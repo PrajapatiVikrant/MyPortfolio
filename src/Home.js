@@ -1,8 +1,5 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import "./Home.css"
-import About from "./About";
-import Project from "./Project";
 function home() {
   return (
     
@@ -27,18 +24,15 @@ function home() {
         />
         </span>
       </p>
+      </center>
       <div className="iconbar">
       <div className="icon"><a href="https://wa.me/919149209580"><i className=" fa-brands fa-square-whatsapp"></i></a></div>
         <div className="icon"><a href="https://www.linkedin.com/in/vikrant-prajapati-b82b5a269"><i className=" fa-brands fa-linkedin"></i></a></div>
         <div className="icon"><a href="mailto: prajapativikrant2020@gmail.com.com"><i className=" fa-solid fa-envelope"></i></a></div>
       </div>
-      </center>
-      
+    
      
-
-
-
-
+     
       </div>
     
      
